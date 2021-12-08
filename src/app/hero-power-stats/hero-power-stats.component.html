@@ -1,0 +1,21 @@
+<div *ngIf="hero" class="power-stats">
+  <h2>{{ hero.name }}'s Power Stats</h2>
+  <div>
+    <ul class="heroes-stats">
+      <li>
+        Combat:<span class="badge">{{ hero.powerStats.combat }}</span>
+      </li>
+      <li>
+        Speed:<span class="badge">{{ hero.powerStats.speed }}</span>
+      </li>
+      <li>
+        Intelligence:<span class="badge">{{
+          hero.powerStats.intelligence
+        }}</span>
+      </li>
+      <li>
+        Strength:<span class="badge">{{ hero.powerStats.strength }}</span>
+      </li>
+    </ul>
+  </div>
+</div>
